@@ -28,7 +28,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title"></h1>
+          <h1 className="App-title">{'测试jenkins自动部署'}</h1>
         </header>
         <p className="App-intro">
           {userData.map(({productId,productName})=>{
